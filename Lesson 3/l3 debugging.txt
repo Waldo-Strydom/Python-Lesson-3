@@ -1,0 +1,60 @@
+count = 0
+
+def add():
+    count+=1
+    print("Count = "+ count)
+
+
+while count<=5:
+    add()
+
+
+
+#end
+
+def a():
+    user = "Dave"
+    id = 67
+    user = "Sam"
+    print(f"(user) (id)")
+#fix this code to output the user and id.    
+# What will the outcome be?
+
+a()
+
+#end
+
+def one():
+    print("one")
+    three()
+
+def two():
+    print("two")
+    
+
+def three():
+    print("three")
+    two()
+
+#Try to predict what will be output before running the program.
+one()
+two()
+three()
+
+#end
+
+import random
+def fun(num,num_2,num_3):
+    ans = num + num_2 + num_3
+    return ans
+
+def random_fun(num):
+    ran=random.randint(0,10) 
+ 
+
+ran = random_fun()
+out = fun(ran,5,7)
+print(out)
+#try to fix this program
+
+#end
